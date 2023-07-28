@@ -9,7 +9,15 @@
 </head>
 
 <body>
-    <div id="root"></div>
+    <h1>Hello Top of Root</h1>
+    <div id="root">
+        <h1>Nikhil Is here !!</h1> 
+        <!-- -Inside root elements is replaced when root.render executed 
+            - React only working inside the root because we get root id in js file
+        -->
+    </div>
+    <h1>Hello bottom of Root</h1>
+    <!-- Order of file of rendering js file/scripts also matters -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="./App.js"></script>
