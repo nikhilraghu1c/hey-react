@@ -1,14 +1,5 @@
-/**
- * Nested Structure & Sibling For React HTML
- * <div id='parent'>
- *      <div id='child'>
- *          <h1>I'm an H1 Tag</h1>
- *          <h2>I'm an H2 Tag </h2>
- *      </div>
- * </div>
- * ReactElement(Object) => Converts Into HTML (Browser Understand) using render function
- * For Sibling you will pass 3rd parameter as array
- */
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement("div", { id: "parent" },
     [
