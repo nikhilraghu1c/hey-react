@@ -1,0 +1,23 @@
+{
+  "name": "hey-react",
+  "version": "1.0.0",
+  "description": "This is Hey React by Nikhil Raghuwanshi",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilraghu1c/hey-react.git"
+  },
+  "keywords": [],
+  "author": "Nikhil Raghuwanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilraghu1c/hey-react/issues"
+  },
+  "homepage": "https://github.com/nikhilraghu1c/hey-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
