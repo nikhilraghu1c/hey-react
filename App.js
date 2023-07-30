@@ -1,19 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = React.createElement("div", { id: "parent" },
-    [
-        React.createElement("div", { id: "child1" }, [
-            React.createElement("h1", {}, "I'm an H1 Tag"),
-            React.createElement("h2", {}, "I'm an H2 Tag")
-        ]),
-        React.createElement("div", { id: "child2" }, [
-            React.createElement("h3", {}, "I'm an H3 Tag"),
-            React.createElement("h4", {}, "I'm an H4 Tag")
-        ])
-    ]
-);
+// React.createElement
+// JSX Javascript Syntax - is not html in js
+// It is HTML like or XML syntax
+// Creates React.createElement using babel
 
-// const heading = React.createElement("h1", { id: 'heading', style: { color: 'blue' } }, "Hello World From React!!");
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(parent);
+const jsxHeading = (
+  <h1 id="heading" className="head" tabIndex="1">
+    Hey React Using JSX
+  </h1>
+);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(jsxHeading);
+console.log(jsxHeading);
