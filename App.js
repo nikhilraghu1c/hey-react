@@ -8,10 +8,11 @@ const Title = () => (
 );
 
 const HeadingComponent = () => (
-    <div id="container">
-        <Title />
-        <h1 className="heading">Hey React Functional Component</h1>
-    </div>
+  <div id="container">
+    <h2>{(num = 10)}</h2>
+    <Title />
+    <h1 className="heading">Hey React Functional Component</h1>
+  </div>
 );
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<HeadingComponent />);

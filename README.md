@@ -23,6 +23,7 @@ Just to learn the react all concepts
 # Babel
 - Transpiler (Make Code Browser Compatible)
 - Transform Syntax
+- Converts JSX Into HTML (Browser Compatible)
 
 # JSX
 - Javascript Syntax, Javascript XML, HTML Like Syntax
@@ -35,6 +36,7 @@ Just to learn the react all concepts
 - Use parenthesis () for multiple line code
 - Follows XML rules , So HTML Elements must be properly closed
 - JavaScript expression inside JSX, the JavaScript must be wrapped with curly braces, {}.
+- Sanitizes Injection Attack
 
 # React Component
 - Class Based Component
