@@ -32,3 +32,14 @@ Just to learn the react all concepts
 - Addition to React which is used to merge HTML with JS
 - JSX creates a React.createElement through Babel (JS Compiler)
 - CamelCase Attribute
+- Use parenthesis () for multiple line code
+- Follows XML rules , So HTML Elements must be properly closed
+- JavaScript expression inside JSX, the JavaScript must be wrapped with curly braces, {}.
+
+# React Component
+- Class Based Component
+- Functional Component
+    - Normal JS function which return JSX
+    - Function first letter should be capital
+    - To render component use selector syntax (<ComponentName />) inside render function
+    - 
