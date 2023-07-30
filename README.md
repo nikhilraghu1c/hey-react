@@ -42,4 +42,4 @@ Just to learn the react all concepts
     - Normal JS function which return JSX
     - Function first letter should be capital
     - To render component use selector syntax (<ComponentName />) inside render function
-    - 
+    - Component Composition (Component Inside Component)
