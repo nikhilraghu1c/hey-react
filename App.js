@@ -38,6 +38,14 @@ const Header = () => {
 };
 const RestaurantCard = (props) => {
   const { resData } = props;
+  const {
+    cloudinaryImageId,
+    name,
+    cuisines,
+    avgRating,
+    costForTwo,
+    sla: { deliveryTime },
+  } = resData;
   return (
     <div
       className="res-card"
@@ -50,19 +58,19 @@ const RestaurantCard = (props) => {
         alt="res-logo"
         src={
           "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-          resData.cloudinaryImageId
+          cloudinaryImageId
         }
       ></img>
-      <h3>{resData.name}</h3>
-      <h4>{resData.cuisines.join(", ")}</h4>
-      <h4>{resData.avgRating} stars</h4>
-      <h4>{resData.costForTwo}</h4>
-      <h4>{resData.sla.deliveryTime} mins</h4>
+      <h3>{name}</h3>
+      <h4>{cuisines.join(", ")}</h4>
+      <h4>{avgRating} stars</h4>
+      <h4>{costForTwo}</h4>
+      <h4>{deliveryTime} mins</h4>
     </div>
   );
 };
 
-const resList= [
+const resList = [
   {
     info: {
       id: "150602",
@@ -1189,20 +1197,19 @@ const Body = () => {
     <div className="body">
       <div className=" ">Search</div>
       <div className="res-container">
-        <RestaurantCard resData={resList[0].info} />
+        {
+          resList.map((restaurant) => {
+            return <RestaurantCard resData={restaurant.info} />
+          })
+        }
+        {/* <RestaurantCard resData={resList[0].info} />
         <RestaurantCard resData={resList[1].info} />
         <RestaurantCard resData={resList[2].info} />
         <RestaurantCard resData={resList[3].info} />
         <RestaurantCard resData={resList[4].info} />
         <RestaurantCard resData={resList[5].info} />
         <RestaurantCard resData={resList[6].info} />
-        <RestaurantCard resData={resList[7].info} />
-        {/* <RestaurantCard
-          resName="KFC"
-          cuisine="Burger, Fast Food"
-          rating="4.3 Stars"
-          time="38 Minutes"
-        /> */}
+        <RestaurantCard resData={resList[7].info} /> */}
       </div>
     </div>
   );
