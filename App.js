@@ -1192,6 +1192,9 @@ const resList = [
     },
   },
 ];
+
+// Add unique id in the key for uniquely identify the elements
+// Not Recommend to use index as key but we can use if we don't have any unique key
 const Body = () => {
   return (
     <div className="body">
