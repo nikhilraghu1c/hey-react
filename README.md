@@ -59,19 +59,22 @@ Just to learn the react all concepts
     - export const Component
     - import { <Component> } from <path>
 
+# React Hooks
+- Normal JS Utility Functions
+- State Variable
+- 2 Imp Hooks
+    - useState() - Create Superpowerful state variables in react
+    - useEffect()
 # Hey Food App
-/**
  * Header
  *  - Logo
  *  - Nav Items
  * Body
  *  - Search
  *  - Restro Container
- *    - Restro Card
- *      - Img, Name Of Res, Star Rating, Cuisine , delivery time etc
+ *    - Restro Card (Img, Name Of Res, Star Rating, Cuisine , delivery time etc)
  * Footer
  *  - Copyright
  *  - Links
  *  - Address
  *  - Contact
- */
