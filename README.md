@@ -49,3 +49,29 @@ Just to learn the react all concepts
 # Virtual Dom 
 # Reconciliation
 # React Fiber
+
+# Export / Import
+ - Default (Only one in the file)
+    - export default <Component>
+    - import <Component> from <path>
+
+ - Named (Multiple in the file)
+    - export const Component
+    - import { <Component> } from <path>
+
+# Hey Food App
+/**
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - Restro Container
+ *    - Restro Card
+ *      - Img, Name Of Res, Star Rating, Cuisine , delivery time etc
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
