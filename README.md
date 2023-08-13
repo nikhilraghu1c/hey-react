@@ -63,7 +63,9 @@ Just to learn the react all concepts
 - Normal JS Utility Functions
 - State Variable
 - 2 Imp Hooks
-    - useState() - Create Superpowerful state variables in react
+    - useState() 
+        - Create Superpowerful state variables in react
+        - Send updates to react to update the dom when variable changes
     - useEffect() -
         - Takes 2 arugument (1. Arrow Function, 2. Dependencies Array)
         - Called After Body Rendered
