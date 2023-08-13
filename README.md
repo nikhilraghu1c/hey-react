@@ -66,6 +66,7 @@ Just to learn the react all concepts
     - useState() 
         - Create Superpowerful state variables in react
         - Send updates to react to update the dom when variable changes
+        - When change in local state variable, react re-rendered the component
     - useEffect() -
         - Takes 2 arugument (1. Arrow Function, 2. Dependencies Array)
         - Called After Body Rendered
