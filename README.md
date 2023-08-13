@@ -64,7 +64,10 @@ Just to learn the react all concepts
 - State Variable
 - 2 Imp Hooks
     - useState() - Create Superpowerful state variables in react
-    - useEffect()
+    - useEffect() -
+        - Takes 2 arugument (1. Arrow Function, 2. Dependencies Array)
+        - Called After Body Rendered
+        - Use to fetch data from api
 # Hey Food App
  * Header
  *  - Logo
