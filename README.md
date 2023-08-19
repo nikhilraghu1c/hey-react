@@ -80,9 +80,10 @@ Just to learn the react all concepts
         - Use to fetch data from api
 
 # React Router Dom
-    - createBrowserRouter use to define path
-    - Router Provider (Component) use to provide route config to app
-    - useRouteError use to provide info about the route error
+- createBrowserRouter use to define path
+- Router Provider (Component) use to provide route config to app
+- useRouteError use to provide info about the route error
+- Outlet component use to load route children 
 # Hey Food App
  * Header
  *  - Logo
