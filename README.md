@@ -67,10 +67,22 @@ Just to learn the react all concepts
         - Create Superpowerful state variables in react
         - Send updates to react to update the dom when variable changes
         - When change in local state variable, react re-rendered the component
+        - Call only inside the body of component
+        - Never use useState variable inside conditions/loop/functions
     - useEffect() -
-        - Takes 2 arugument (1. Arrow Function, 2. Dependencies Array)
+        - Takes 2 arugument
+            1. Arrow Function, 
+            2. Dependencies Array
+                a. No dependency array, useEffect called after every render
+                b. If Empty dependency array, then useEffect called only once at initial
+                c. If Array has dependency then use effect called only when dependency changes
         - Called After Body Rendered
         - Use to fetch data from api
+
+# React Router Dom
+    - createBrowserRouter use to define path
+    - Router Provider (Component) use to provide route config to app
+    - useRouteError use to provide info about the route error
 # Hey Food App
  * Header
  *  - Logo
