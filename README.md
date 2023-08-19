@@ -84,6 +84,8 @@ Just to learn the react all concepts
 - Router Provider (Component) use to provide route config to app
 - useRouteError use to provide info about the route error
 - Outlet component use to load route children 
+- Link Component use to navigate from one route to another
+- Single page application works on client side routing
 # Hey Food App
  * Header
  *  - Logo
