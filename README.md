@@ -86,6 +86,9 @@ Just to learn the react all concepts
 - Outlet component use to load route children 
 - Link Component use to navigate from one route to another
 - Single page application works on client side routing
+- For Dynamic routes you can use :resId inside route path
+- useParams hook use to get the param from url
+
 # Hey Food App
  * Header
  *  - Logo

@@ -37,8 +37,7 @@
 }
 
 .search-box {
-    margin: 10px;
-    cursor: pointer;
+  margin: 10px;
 }
 
 .res-logo {
@@ -64,10 +63,10 @@
 }
 
 .login {
-    padding: 0 20px;
-    cursor: pointer;
+  padding: 0 20px;
+  cursor: pointer;
 }
 
 .filter {
-    display: flex;
+  display: flex;
 }
