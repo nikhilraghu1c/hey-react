@@ -95,6 +95,7 @@ Just to learn the react all concepts
                 c. If Array has dependency then use effect called only when dependency changes
         - Called After Body Rendered
         - Use to fetch data from api
+        - we can use multiple use effects.
 
 # React Router Dom
 - createBrowserRouter use to define path
