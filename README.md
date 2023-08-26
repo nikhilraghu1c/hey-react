@@ -93,6 +93,7 @@ Just to learn the react all concepts
                 a. No dependency array, useEffect called after every render
                 b. If Empty dependency array, then useEffect called only once at initial
                 c. If Array has dependency then use effect called only when dependency changes
+                d. if you return function from it , it will call when component will unmount
         - Called After Body Rendered
         - Use to fetch data from api
         - we can use multiple use effects.
