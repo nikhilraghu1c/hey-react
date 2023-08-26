@@ -40,6 +40,10 @@ Just to learn the react all concepts
 
 # React Component
 - Class Based Component
+    - Normal JS Class which extends React.Component includes render method inside it which returns JSX.
+    - TO get props, Need to create constructor with props paramerte including super(props) inside it.
+    - super() use to access variable of parent class
+    - super(props) use to get this.props inside the constructor else it will be undefined.
 - Functional Component
     - Normal JS function which return JSX
     - Function first letter should be capital
