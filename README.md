@@ -97,6 +97,7 @@ Just to learn the react all concepts
         - Called After Body Rendered
         - Use to fetch data from api
         - we can use multiple use effects.
+        - useEffect can't be async because it expect function or nothing not the promise which is returned by async
 
 # React Router Dom
 - createBrowserRouter use to define path
