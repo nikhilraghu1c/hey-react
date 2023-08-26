@@ -46,6 +46,12 @@ Just to learn the react all concepts
     - super(props) use to get this.props inside the constructor else it will be undefined.
     - this.state = {count: 1} inside constructor to create the state variable in component
     - Never update state variable directly, this.setState is used to update the state variables (Only update the value which is passed inside the object) 
+    - Life Cycle
+        - Constructor
+        - Render
+        - ComponentDidMount 
+            - Called Only when the component completely mounted
+            - Use to write logic after mounting like api call
 - Functional Component
     - Normal JS function which return JSX
     - Function first letter should be capital
