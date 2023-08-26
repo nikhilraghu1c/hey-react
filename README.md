@@ -46,12 +46,17 @@ Just to learn the react all concepts
     - super(props) use to get this.props inside the constructor else it will be undefined.
     - this.state = {count: 1} inside constructor to create the state variable in component
     - Never update state variable directly, this.setState is used to update the state variables (Only update the value which is passed inside the object) 
-    - Life Cycle
-        - Constructor
-        - Render
-        - ComponentDidMount 
+    - Life Cycle (https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+        - Constructor (Render Phase)
+        - Render (Render Phase)
+        - ComponentDidMount (Commit Phase)
             - Called Only when the component completely mounted
             - Use to write logic after mounting like api call
+            - React do first render phase for all childrens then do the commit phase 
+        - ComponentDidUpdate (Commit Phase)
+            - Call when update happens & component rerender the component then call this
+        - ComponentWillUnmount (Commit Phase)
+            - Call before component is going to unmount/destroy
 - Functional Component
     - Normal JS function which return JSX
     - Function first letter should be capital
