@@ -44,7 +44,8 @@ Just to learn the react all concepts
     - TO get props, Need to create constructor with props paramerte including super(props) inside it.
     - super() use to access variable of parent class
     - super(props) use to get this.props inside the constructor else it will be undefined.
-    - this.state = {count: 1} inside constructor to create the state variable in component 
+    - this.state = {count: 1} inside constructor to create the state variable in component
+    - Never update state variable directly, this.setState is used to update the state variables (Only update the value which is passed inside the object) 
 - Functional Component
     - Normal JS function which return JSX
     - Function first letter should be capital
